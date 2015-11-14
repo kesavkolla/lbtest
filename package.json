@@ -1,0 +1,26 @@
+{
+  "name": "lbtest",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "*",
+    "cors": "*",
+    "loopback": "*",
+    "loopback-boot": "*",
+    "loopback-component-explorer": "*",
+    "loopback-connector-postgresql": "*",
+    "loopback-datasource-juggler": "*",
+    "serve-favicon": "*"
+  },
+  "devDependencies": {
+    "jshint": "*"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "lbtest"
+}
