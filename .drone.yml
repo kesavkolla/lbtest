@@ -1,10 +1,9 @@
 deploy:
-  staging:
-    ssh:
-      host: test-build.weave.local
-      user: root
-      commands:
-        - echo hello
-        - echo world
-    when:
-      branch: staging
+  ssh:
+    host: test-build.weave.local
+    user: root
+    commands:
+      - echo hello
+      - echo world
+  when:
+    branch: staging
