@@ -1,3 +1,4 @@
+image: phusion/baseimage:latest
 deploy:
   ssh:
     host: test-build.weave.local
