@@ -1,10 +1,8 @@
 image: phusion/baseimage:latest
 deploy:
-  ssh:
-    host: test-build.weave.local
-    user: root
-    commands:
-      - echo hello
-      - echo world
-  when:
-    branch: staging
+  bash:
+    script:
+      - env
+      - cat /etc/resolv.conf
+      - hostname
+      - pwd
