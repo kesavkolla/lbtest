@@ -1,6 +1,5 @@
 image: phusion/baseimage:latest
 deploy:
-  bash:
-    script:
-      - env
-      - cat /etc/resolv.conf
+  script:
+    - env
+    - cat /etc/resolv.conf
