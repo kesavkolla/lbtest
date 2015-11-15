@@ -1,4 +1,4 @@
 image: phusion/baseimage:latest
 script:
-  - env
-  - cat /etc/resolv.conf
+  - /usr/bin/env
+  - /usr/bin/cat /etc/resolv.conf
