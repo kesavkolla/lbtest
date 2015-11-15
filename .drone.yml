@@ -1,8 +1,7 @@
 image: phusion/baseimage:latest
 deploy:
-  bash:
-    script:
-      - env
-      - cat /etc/resolv.conf
-      - hostname
-      - pwd
+  script:
+    - env
+    - cat /etc/resolv.conf
+    - hostname
+    - pwd
